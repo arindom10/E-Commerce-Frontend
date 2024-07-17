@@ -7,8 +7,12 @@ export const MyState = (props) => {
     age: 21,
   };
 
+  const color = "red";
+
   return (
-    <MyContext.Provider value={state}>{props.children}</MyContext.Provider>
+    <MyContext.Provider value={{ state, color }}>
+      {props.children}
+    </MyContext.Provider>
   );
 };
 export default MyState;
