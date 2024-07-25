@@ -20,7 +20,9 @@ const Navbar = () => {
             color: mode === "dark" ? "white" : "",
           }}
         >
-          Get free delivery on orders over ₹300
+          Get free delivery on orders over{" "}
+          <span className="text-2xl ml-2">৳</span>
+          300/=
         </p>
 
         <nav
