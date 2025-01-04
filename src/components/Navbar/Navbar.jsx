@@ -290,7 +290,7 @@ const Navbar = () => {
                     >
                       0
                     </span>
-                    <span className="sr-only">items in cart, view bag</span>
+                    <span className="sr-only">Items in cart, View Cart</span>
                   </Link>
                 </div>
               </div>
